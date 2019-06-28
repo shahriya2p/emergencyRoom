@@ -1,4 +1,4 @@
-let emergencyRoom= {trauma:50, heartAttack:50}
+const emergencyRoom = {trauma:50, heartAttack:50}
 
 const fillBed = (type) => {
 	if(emergencyRoom[type]) {
